@@ -1,5 +1,7 @@
 # Third-Party Notices
 
+[English](./THIRD_PARTY_NOTICES.md) | [简体中文](./THIRD_PARTY_NOTICES.zh-CN.md)
+
 This repository contains a mix of original materials and third-party or derived materials.
 
 ## Covered By The Repository License

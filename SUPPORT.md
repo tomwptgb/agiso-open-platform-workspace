@@ -1,5 +1,7 @@
 # Support
 
+[English](./SUPPORT.md) | [简体中文](./SUPPORT.zh-CN.md)
+
 ## How To Get Help
 
 - Use GitHub Issues for bugs, gaps in repository documentation, or improvement requests.

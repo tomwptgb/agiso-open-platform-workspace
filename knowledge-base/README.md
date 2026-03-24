@@ -1,5 +1,7 @@
 # Knowledge Base Boundary
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 `knowledge-base/` contains extracted Agiso documentation artifacts and the pipeline that regenerates them.
 Consumers should treat this directory as the local evidence base, not as handwritten source docs.
 

@@ -1,5 +1,7 @@
 # Security Policy
 
+[English](./SECURITY.md) | [简体中文](./SECURITY.zh-CN.md)
+
 ## Scope
 
 This repository primarily contains documentation assets, extraction tooling, and a Codex skill.

@@ -1,5 +1,7 @@
 # Code of Conduct
 
+[English](./CODE_OF_CONDUCT.md) | [简体中文](./CODE_OF_CONDUCT.zh-CN.md)
+
 ## Our Standards
 
 We want this repository to be useful, professional, and safe for contributors and users.

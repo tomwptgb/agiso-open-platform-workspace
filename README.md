@@ -1,5 +1,7 @@
 # agiso-open-platform-workspace
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 Open-source workspace for an Agiso Open Platform integration skill and its local evidence base.
 
 This repository is organized around two boundaries:
