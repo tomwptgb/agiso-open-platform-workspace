@@ -1,0 +1,653 @@
+{
+  "total_routes": 102,
+  "services": {
+    "acpr": [
+      {
+        "path": "/acpr/api",
+        "title": "接口"
+      },
+      {
+        "path": "/acpr/push",
+        "title": "推送"
+      },
+      {
+        "path": "/acpr/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/acpr/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/acpr/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/acpr/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/acpr/faq",
+        "title": "常见问题"
+      }
+    ],
+    "acs": [
+      {
+        "path": "/acs/api",
+        "title": "接口"
+      },
+      {
+        "path": "/acs/push",
+        "title": "采购通知"
+      },
+      {
+        "path": "/acs/model",
+        "title": "数据类型"
+      },
+      {
+        "path": "/acs/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/acs/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/acs/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/acs/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/acs/faq",
+        "title": "常见问题"
+      }
+    ],
+    "alds": [
+      {
+        "path": "/alds/api",
+        "title": "接口"
+      },
+      {
+        "path": "/alds/push",
+        "title": "推送"
+      },
+      {
+        "path": "/alds/model",
+        "title": "数据类型"
+      },
+      {
+        "path": "/alds/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/alds/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/alds/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/alds/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/alds/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsDoudian": [
+      {
+        "path": "/aldsDoudian/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsDoudian/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsDoudian/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsDoudian/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsDoudian/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsDoudian/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsDoudian/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsIdle": [
+      {
+        "path": "/aldsIdle/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsIdle/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsIdle/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsIdle/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsIdle/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsIdle/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsIdle/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsJd": [
+      {
+        "path": "/aldsJd/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsJd/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsJd/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsJd/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsJd/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsJd/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsJd/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsKwai": [
+      {
+        "path": "/aldsKwai/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsKwai/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsKwai/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsKwai/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsKwai/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsKwai/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsKwai/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsPdd": [
+      {
+        "path": "/aldsPdd/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsPdd/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsPdd/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsPdd/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsPdd/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsPdd/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsPdd/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsWeidian": [
+      {
+        "path": "/aldsWeidian/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsWeidian/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsWeidian/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsWeidian/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsWeidian/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsWeidian/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsWeidian/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsWxVideoShop": [
+      {
+        "path": "/aldsWxVideoShop/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsWxVideoShop/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsWxVideoShop/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsWxVideoShop/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsWxVideoShop/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsWxVideoShop/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsWxVideoShop/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsXhs": [
+      {
+        "path": "/aldsXhs/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsXhs/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsXhs/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsXhs/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsXhs/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsXhs/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsXhs/faq",
+        "title": "常见问题"
+      }
+    ],
+    "aldsYouzan": [
+      {
+        "path": "/aldsYouzan/api",
+        "title": "接口"
+      },
+      {
+        "path": "/aldsYouzan/push",
+        "title": "推送"
+      },
+      {
+        "path": "/aldsYouzan/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/aldsYouzan/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/aldsYouzan/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/aldsYouzan/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/aldsYouzan/faq",
+        "title": "常见问题"
+      }
+    ],
+    "open": [
+      {
+        "path": "/open/api",
+        "title": "接口"
+      },
+      {
+        "path": "/open/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/open/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/open/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/open/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/open/faq",
+        "title": "常见问题"
+      }
+    ],
+    "print": [
+      {
+        "path": "/print/api",
+        "title": "接口"
+      },
+      {
+        "path": "/print/push",
+        "title": "推送"
+      },
+      {
+        "path": "/print/errorCode",
+        "title": "错误代码"
+      },
+      {
+        "path": "/print/feeStandrd",
+        "title": "收费规则"
+      },
+      {
+        "path": "/print/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/print/sign",
+        "title": "验签工具"
+      },
+      {
+        "path": "/print/faq",
+        "title": "常见问题"
+      }
+    ],
+    "supplier": [
+      {
+        "path": "/supplier/demo",
+        "title": "示例代码"
+      },
+      {
+        "path": "/supplier/signDemo",
+        "title": "签名算法"
+      },
+      {
+        "path": "/supplier/sign",
+        "title": "验签工具"
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "from": "/",
+      "to": "/alds"
+    },
+    {
+      "from": "/alds/",
+      "to": "/alds/guide"
+    },
+    {
+      "from": "/alds/api",
+      "to": "/alds/logisticsDummySend"
+    },
+    {
+      "from": "/alds/push",
+      "to": "/alds/push/tradePush"
+    },
+    {
+      "from": "/alds/model",
+      "to": "/alds/model/order"
+    },
+    {
+      "from": "/acs/",
+      "to": "/acs/guide"
+    },
+    {
+      "from": "/acs/api",
+      "to": "/acs/api/logisticsDummySend"
+    },
+    {
+      "from": "/acs/push",
+      "to": "/acs/push/tradePush"
+    },
+    {
+      "from": "/acs/model",
+      "to": "/acs/model/order"
+    },
+    {
+      "from": "/supplier/",
+      "to": "/supplier/guide"
+    },
+    {
+      "from": "/aldsPdd/",
+      "to": "/aldsPdd/guide"
+    },
+    {
+      "from": "/aldsPdd/api",
+      "to": "/aldsPdd/api/ActivationCodeSend"
+    },
+    {
+      "from": "/aldsPdd/push",
+      "to": "/aldspdd/push/tradePush"
+    },
+    {
+      "from": "/print/",
+      "to": "/print/guide"
+    },
+    {
+      "from": "/print/api",
+      "to": "/print/getSupplierInfo"
+    },
+    {
+      "from": "/print/push",
+      "to": "/print/push/WaybillCodeChange"
+    },
+    {
+      "from": "/",
+      "to": "/acpr"
+    },
+    {
+      "from": "/acpr/",
+      "to": "/acpr/guide"
+    },
+    {
+      "from": "/acpr/api",
+      "to": "/acpr/handPick"
+    },
+    {
+      "from": "/acpr/push",
+      "to": "/acpr/cardPwdStockWarn"
+    },
+    {
+      "from": "/aldsIdle/",
+      "to": "/aldsIdle/guide"
+    },
+    {
+      "from": "/aldsIdle/api",
+      "to": "/aldsIdle/api/dummySend"
+    },
+    {
+      "from": "/aldsIdle/push",
+      "to": "/aldsIdle/push/tradePush"
+    },
+    {
+      "from": "/aldsJd/",
+      "to": "/aldsJd/guide"
+    },
+    {
+      "from": "/aldsJd/api",
+      "to": "/aldsJd/api/dummySend"
+    },
+    {
+      "from": "/aldsJd/push",
+      "to": "/aldsJd/push/tradePush"
+    },
+    {
+      "from": "/",
+      "to": "/aldsDoudian"
+    },
+    {
+      "from": "/aldsDoudian/",
+      "to": "/aldsDoudian/guide"
+    },
+    {
+      "from": "/aldsDoudian/api",
+      "to": "/aldsDoudian/api/orderDetail"
+    },
+    {
+      "from": "/aldsDoudian/push",
+      "to": "/aldsDoudian/push/tradePush"
+    },
+    {
+      "from": "/",
+      "to": "/aldsKwai"
+    },
+    {
+      "from": "/aldsKwai/",
+      "to": "/aldsKwai/guide"
+    },
+    {
+      "from": "/aldsKwai/api",
+      "to": "/aldsKwai/api/orderDetail"
+    },
+    {
+      "from": "/aldsKwai/push",
+      "to": "/aldsKwai/push/tradePayPush"
+    },
+    {
+      "from": "/",
+      "to": "/aldsYouzan"
+    },
+    {
+      "from": "/aldsYouzan/",
+      "to": "/aldsYouzan/guide"
+    },
+    {
+      "from": "/aldsYouzan/api",
+      "to": "/aldsYouzan/api/orderDetail"
+    },
+    {
+      "from": "/aldsYouzan/push",
+      "to": "/aldsYouzan/push/tradePush"
+    },
+    {
+      "from": "/aldsWeidian/",
+      "to": "/aldsWeidian/guide"
+    },
+    {
+      "from": "/aldsWeidian/api",
+      "to": "/aldsWeidian/api/tokenDelete"
+    },
+    {
+      "from": "/aldsWeidian/push",
+      "to": "/aldsWeidian/push/tradePush"
+    },
+    {
+      "from": "/aldsWxVideoShop/",
+      "to": "/aldsWxVideoShop/guide"
+    },
+    {
+      "from": "/aldsWxVideoShop/api",
+      "to": "/aldsWxVideoShop/api/orderDetail"
+    },
+    {
+      "from": "/aldsWxVideoShop/push",
+      "to": "/aldsWxVideoShop/push/payAutoSendCompleted"
+    },
+    {
+      "from": "/aldsXhs/",
+      "to": "/aldsXhs/guide"
+    },
+    {
+      "from": "/aldsXhs/api",
+      "to": "/aldsXhs/api/dummySend"
+    },
+    {
+      "from": "/aldsXhs/push",
+      "to": "/aldsXhs/push/tradePush"
+    },
+    {
+      "from": "/",
+      "to": "/open"
+    },
+    {
+      "from": "/open/",
+      "to": "/open/guide"
+    },
+    {
+      "from": "/open/api",
+      "to": "/open/queryDeposit"
+    },
+    {
+      "from": "/apiDemo",
+      "to": "/apiDemo/index"
+    },
+    {
+      "from": "/pushDemo",
+      "to": "/pushDemo/index"
+    }
+  ]
+}
