@@ -4,6 +4,11 @@
 
 Open-source workspace for an Agiso Open Platform integration skill and its local evidence base.
 
+Installation guides:
+
+- [Install in AI clients](./INSTALL_SKILLS.md)
+- [安装到 AI 客户端](./INSTALL_SKILLS.zh-CN.md)
+
 This repository is organized around two boundaries:
 
 - `knowledge-base/`: extracted source material, derived indexes, and the pipeline used to regenerate them
@@ -43,6 +48,7 @@ Use this repository when you need a local, inspectable workspace for:
 2. Read `skill/agiso-open-platform/references/service-map.md` if you need to map a business workflow to the right Agiso service.
 3. Use the helper scripts in `skill/agiso-open-platform/scripts/` for deterministic tasks such as signing, doc search, or service lookup.
 4. Treat `knowledge-base/` as the local evidence layer that the skill reads from.
+5. If you want to install this skill into Codex, Claude Code, or Claude, start with `INSTALL_SKILLS.md`.
 
 ## Skill And Path Contract
 

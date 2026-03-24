@@ -4,6 +4,11 @@
 
 这是一个面向 Agiso Open Platform 集成 skill 及其本地证据库的开源工作区。
 
+安装入口：
+
+- [Install in AI clients](./INSTALL_SKILLS.md)
+- [安装到 AI 客户端](./INSTALL_SKILLS.zh-CN.md)
+
 本仓库围绕两个边界组织：
 
 - `knowledge-base/`：提取后的源材料、派生索引，以及用于再生成它们的流水线
@@ -43,6 +48,7 @@
 2. 如果你需要把业务流程映射到正确的 Agiso 服务，先读 `skill/agiso-open-platform/references/service-map.md`。
 3. 对于签名、文档搜索、服务定位等确定性任务，优先使用 `skill/agiso-open-platform/scripts/` 下的辅助脚本。
 4. 将 `knowledge-base/` 视为 skill 读取的本地证据层。
+5. 如果你想把这个 skill 安装到 Codex、Claude Code 或 Claude，请先阅读 `INSTALL_SKILLS.md`。
 
 ## Skill 与路径约定
 
