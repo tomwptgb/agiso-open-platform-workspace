@@ -1,0 +1,3 @@
+display_name: Agiso Open Platform
+short_description: Work with Agiso APIs, signatures, services, and callback integrations.
+default_prompt: Help me identify the right Agiso service, read the local docs, and generate correct signed requests or callback handlers.

@@ -8,10 +8,12 @@ import json
 import os
 import re
 import html
+from pathlib import Path
 
-RAW_JS_DIR = '/home/ubuntu/Workspace/analyzeopen_agiso_com/raw_js'
-DOCS_DIR = '/home/ubuntu/Workspace/analyzeopen_agiso_com/docs'
-ROUTE_MAP = '/home/ubuntu/Workspace/analyzeopen_agiso_com/extracted/route_map.json'
+BASE_DIR = Path(__file__).resolve().parent
+RAW_JS_DIR = str(BASE_DIR / "raw_js")
+DOCS_DIR = str(BASE_DIR / "docs")
+ROUTE_MAP = str(BASE_DIR / "extracted" / "route_map.json")
 
 SERVICE_NAMES = {
     'alds': '淘宝自动发货 (ALDS)',
