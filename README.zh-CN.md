@@ -11,8 +11,8 @@
 
 本仓库围绕两个边界组织：
 
-- `knowledge-base/`：提取后的源材料、派生索引，以及用于再生成它们的流水线
-- `skill/agiso-open-platform/`：面向 Codex 的 skill、参考材料和读取本地知识库的辅助脚本
+- `knowledge-base/`：工作区中的源材料、派生索引，以及用于再生成它们的流水线
+- `skill/agiso-open-platform/`：可安装的 skill 包，内部自带一份 `knowledge-base/` 快照
 
 ## 仓库用途
 
@@ -37,6 +37,7 @@
 │   └── agiso-open-platform/
 │       ├── SKILL.md
 │       ├── agents/
+│       ├── knowledge-base/
 │       ├── references/
 │       └── scripts/
 └── README.md
@@ -47,8 +48,9 @@
 1. 查看 skill 入口文件 `skill/agiso-open-platform/SKILL.md`。
 2. 如果你需要把业务流程映射到正确的 Agiso 服务，先读 `skill/agiso-open-platform/references/service-map.md`。
 3. 对于签名、文档搜索、服务定位等确定性任务，优先使用 `skill/agiso-open-platform/scripts/` 下的辅助脚本。
-4. 将 `knowledge-base/` 视为 skill 读取的本地证据层。
-5. 如果你想把这个 skill 安装到 Codex、Claude Code 或 Claude，请先阅读 `INSTALL_SKILLS.md`。
+4. 将根目录 `knowledge-base/` 视为工作区事实源，将 `skill/agiso-open-platform/knowledge-base/` 视为可安装 skill 的内置快照。
+5. 工作区知识库更新后，使用 `python3 skill/agiso-open-platform/scripts/sync_bundled_knowledge_base.py` 刷新可安装快照。
+6. 如果你想把这个 skill 安装到 Codex、Claude Code 或 Claude，请先阅读 `INSTALL_SKILLS.md`。
 
 ## Skill 与路径约定
 
@@ -58,9 +60,10 @@ skill 标识和目录名保持为 `agiso-open-platform`。
 skill 脚本会通过以下任一来源解析知识库路径：
 
 1. `AGISO_KNOWLEDGE_BASE_ROOT`
-2. `<repo>/knowledge-base`
+2. `<已安装 skill>/knowledge-base`
+3. `<repo>/knowledge-base`
 
-这样可以去掉之前隐式的相对路径耦合，并提高 skill 在不同克隆环境中的可移植性。
+这样既能让 skill 目录在 Codex、Claude Code 和 ZIP 上传场景下自包含可用，也保留了维护者在工作区内覆盖知识库路径的能力。
 
 ## 开源范围
 

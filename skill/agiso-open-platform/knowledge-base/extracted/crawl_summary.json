@@ -1,0 +1,69 @@
+{
+  "site": "https://open.agiso.com/document/",
+  "description": "Agiso Open Platform Developer Documentation (易店长开放平台开发文档)",
+  "base_api_url": "//open.agiso.com",
+  "static_assets_url": "//agiso-web-fronts.oss-cn-zhangjiakou.aliyuncs.com/OpenVue/front/1.0.0/",
+  "gateway_api_urls": {
+    "alds": "https://gw-api.agiso.com/alds",
+    "acs": "https://gw-api.agiso.com/acs",
+    "print": "https://ebprint.agiso.com",
+    "acpr": "https://mai.91kami.com",
+    "other": "https://gw-api.agiso.com/{service_name}"
+  },
+  "backend_api_endpoints": {
+    "/Open/GetApiPriceInfo": "Get API pricing information (requires POST with body)",
+    "/Open/GetSign": "Get signature information (requires POST with params)"
+  },
+  "statistics": {
+    "total_vue_routes": 102,
+    "total_redirects": 52,
+    "total_api_doc_entries": 163,
+    "total_push_notification_docs": 69,
+    "total_services": 15
+  },
+  "services": [
+    "acpr",
+    "acs",
+    "alds",
+    "aldsDoudian",
+    "aldsIdle",
+    "aldsJd",
+    "aldsKwai",
+    "aldsPdd",
+    "aldsWeidian",
+    "aldsWxVideoShop",
+    "aldsXhs",
+    "aldsYouzan",
+    "open",
+    "print",
+    "supplier"
+  ],
+  "service_descriptions": {
+    "alds": "自动发货 (Taobao Auto Delivery)",
+    "acs": "自动采购 (Auto Purchase)",
+    "acpr": "自动出卡 (Auto Card Pickup/91Kami)",
+    "aldsPdd": "拼多多自动发货 (Pinduoduo Auto Delivery)",
+    "aldsIdle": "闲鱼自动发货 (Xianyu/Idle Fish Auto Delivery)",
+    "aldsJd": "京东自动发货 (JD Auto Delivery)",
+    "aldsDoudian": "抖店自动发货 (Douyin/TikTok Shop Auto Delivery)",
+    "aldsKwai": "快手自动发货 (Kuaishou Auto Delivery)",
+    "aldsYouzan": "有赞自动发货 (Youzan Auto Delivery)",
+    "aldsWeidian": "微店自动发货 (Weidian Auto Delivery)",
+    "aldsWxVideoShop": "微信小店自动发货 (WeChat Video Shop Auto Delivery)",
+    "aldsXhs": "小红书自动发货 (Xiaohongshu/RED Auto Delivery)",
+    "print": "云打印/代发 (Cloud Print / Dropshipping)",
+    "open": "开放平台公共接口 (Open Platform Common APIs)",
+    "supplier": "供应商接口 (Supplier Interface)"
+  },
+  "common_page_types_per_service": [
+    "guide - 接入指南 (Integration Guide)",
+    "api - 接口 (API Endpoints)",
+    "push - 推送 (Push Notifications)",
+    "errorCode - 错误代码 (Error Codes)",
+    "feeStandrd - 收费规则 (Pricing Rules)",
+    "signDemo - 签名算法 (Signature Algorithm)",
+    "sign - 验签工具 (Signature Verification Tool)",
+    "faq - 常见问题 (FAQ)",
+    "model - 数据类型 (Data Types)"
+  ]
+}

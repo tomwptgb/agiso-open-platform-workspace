@@ -8,6 +8,8 @@
 - 仓库路径：`skill/agiso-open-platform/`
 - 主入口文件：`skill/agiso-open-platform/SKILL.md`
 
+这个可安装目录已经内置所需的 `knowledge-base/` 快照，因此无论是复制目录还是打 ZIP，都只需要处理 `skill/agiso-open-platform/`。
+
 ## 第一性原理规则
 
 本仓库只应记录与本项目直接相关且相对稳定的事实：
@@ -104,8 +106,8 @@ Claude 使用“上传自定义 skill”，而不是文件系统自动发现。
 如果你只想走最短路径：
 
 - Codex 用户：直接使用上面的 GitHub 安装命令
-- Claude Code 用户：直接把 skill 目录复制到 `~/.claude/skills/`
-- Claude 用户：先阅读官方上传指南
+- Claude Code 用户：直接复制这个自包含的 skill 目录到 `~/.claude/skills/`
+- Claude 用户：上传由 `skill/agiso-open-platform/` 打出的自包含 ZIP
 
 ## 维护规则
 

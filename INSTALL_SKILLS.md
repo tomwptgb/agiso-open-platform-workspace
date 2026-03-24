@@ -8,6 +8,8 @@ This repository contains one installable skill:
 - repository path: `skill/agiso-open-platform/`
 - primary entrypoint: `skill/agiso-open-platform/SKILL.md`
 
+The installable directory already bundles the required `knowledge-base/` snapshot, so copying or zipping `skill/agiso-open-platform/` is sufficient.
+
 ## First-Principles Rule
 
 This repository should only document stable facts that are specific to this project:
@@ -104,8 +106,8 @@ Official references:
 If you only want the shortest path:
 
 - Codex users: use the GitHub installer command above
-- Claude Code users: copy the skill directory into `~/.claude/skills/`
-- Claude users: read the official upload guide first
+- Claude Code users: copy the self-contained skill directory into `~/.claude/skills/`
+- Claude users: upload the self-contained ZIP built from `skill/agiso-open-platform/`
 
 ## Maintenance Rule
 

@@ -6,12 +6,10 @@ from __future__ import annotations
 import argparse
 import json
 
-from data_paths import docs_root, extracted_root, repo_root
-
-
-ROOT = repo_root()
+from data_paths import docs_root, extracted_root, knowledge_base_root
 EXTRACTED = extracted_root()
 DOCS = docs_root()
+KNOWLEDGE_BASE = knowledge_base_root()
 
 
 def search_api_index(query: str):
@@ -35,7 +33,7 @@ def search_markdown(query: str):
         start = max(0, index - 120)
         end = min(len(text), index + 220)
         snippet = text[start:end].replace("\n", " ")
-        results.append({"file": str(path.relative_to(ROOT)), "snippet": snippet})
+        results.append({"file": str(path.relative_to(KNOWLEDGE_BASE)), "snippet": snippet})
     return results
 
 

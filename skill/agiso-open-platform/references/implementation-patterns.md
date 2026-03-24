@@ -58,4 +58,4 @@ Supplier flows differ from standard platform API usage:
 - validate `access_token`
 - deduplicate purchase requests using business keys such as `tid`, `oid`, and `type`
 
-Use `../../../knowledge-base/docs/supplier/demo.md` as the local pattern source.
+Use `../knowledge-base/docs/supplier/demo.md` as the local pattern source.

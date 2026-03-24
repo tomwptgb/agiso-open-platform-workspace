@@ -8,6 +8,7 @@ description: Use when working with Agiso Open Platform (open.agiso.com) docs, AP
 Use this skill for requests involving Agiso platform integration, reverse-engineered Agiso docs, API request construction, callback verification, signature generation, client SDK generation, supplier integration, or service-specific troubleshooting.
 
 This skill lives in the `agiso-open-platform-workspace` repository. The repository name changed, but the skill identifier and directory name remain `agiso-open-platform`.
+The installable skill directory is self-contained and bundles a local `knowledge-base/` snapshot.
 
 ## What This Skill Covers
 
@@ -51,8 +52,8 @@ Use this skill when the user asks to:
 - For common workflows, read `references/task-playbooks.md`
 - For code generation or callback implementation, read `references/implementation-patterns.md`
 - For stale-doc and evidence rules, read `references/freshness-and-limitations.md`
-- For extracted site structure and reverse-engineered indexes, inspect `../../knowledge-base/extracted/crawl_summary.json`, `../../knowledge-base/extracted/route_map.json`, and `../../knowledge-base/extracted/api_docs_index.json`
-- For canonical source docs, read the matching files under `../../knowledge-base/docs/<service>/`
+- For extracted site structure and reverse-engineered indexes, inspect `knowledge-base/extracted/crawl_summary.json`, `knowledge-base/extracted/route_map.json`, and `knowledge-base/extracted/api_docs_index.json`
+- For canonical source docs, read the matching files under `knowledge-base/docs/<service>/`
 - For deterministic signing, run `scripts/agiso_sign.py`
 - For service discovery, run `scripts/lookup_service.py`
 - For endpoint and topic search, run `scripts/search_docs.py`
@@ -65,7 +66,7 @@ Use this skill when the user asks to:
 3. Open the matching service docs and the smallest additional references needed.
 4. If the task involves live request construction or callback handling, confirm the signing flow from the service's `signDemo.md` and use `scripts/agiso_sign.py`.
 5. If the task involves an endpoint, read the service's `api.md` and then the related `errorCode.md`, `faq.md`, `push.md`, or `model.md` if needed.
-6. If the docs are incomplete or inconsistent, use `scripts/search_docs.py`, `../../knowledge-base/extracted/api_docs_index.json`, and `../../knowledge-base/raw_js/` to recover names, routes, or push topics.
+6. If the docs are incomplete or inconsistent, use `scripts/search_docs.py`, `knowledge-base/extracted/api_docs_index.json`, and `knowledge-base/raw_js/` to recover names, routes, or push topics.
 7. When generating code, keep request signing, base URL, service prefix, and response envelope consistent with Agiso conventions.
 8. When the user wants implementation output, prefer runnable code or stubs over prose-only summaries.
 

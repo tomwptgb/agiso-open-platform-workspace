@@ -6,9 +6,9 @@ This skill is built from local extracted artifacts and markdown docs, not a live
 
 Prefer sources in this order:
 
-1. `../../../knowledge-base/docs/<service>/*.md`
-2. `../../../knowledge-base/extracted/*.json`
-3. `../../../knowledge-base/raw_js/*`
+1. `../knowledge-base/docs/<service>/*.md`
+2. `../knowledge-base/extracted/*.json`
+3. `../knowledge-base/raw_js/*`
 
 If a claim comes only from extracted JSON or frontend assets, state that it is inferred rather than explicitly documented.
 

@@ -11,8 +11,8 @@ Installation guides:
 
 This repository is organized around two boundaries:
 
-- `knowledge-base/`: extracted source material, derived indexes, and the pipeline used to regenerate them
-- `skill/agiso-open-platform/`: the Codex-facing skill, references, and helper scripts that consume the local knowledge base
+- `knowledge-base/`: workspace source material, derived indexes, and the pipeline used to regenerate them
+- `skill/agiso-open-platform/`: the installable skill package, including its own bundled `knowledge-base/` snapshot
 
 ## What This Repository Is For
 
@@ -37,6 +37,7 @@ Use this repository when you need a local, inspectable workspace for:
 │   └── agiso-open-platform/
 │       ├── SKILL.md
 │       ├── agents/
+│       ├── knowledge-base/
 │       ├── references/
 │       └── scripts/
 └── README.md
@@ -47,8 +48,9 @@ Use this repository when you need a local, inspectable workspace for:
 1. Inspect the skill entrypoint at `skill/agiso-open-platform/SKILL.md`.
 2. Read `skill/agiso-open-platform/references/service-map.md` if you need to map a business workflow to the right Agiso service.
 3. Use the helper scripts in `skill/agiso-open-platform/scripts/` for deterministic tasks such as signing, doc search, or service lookup.
-4. Treat `knowledge-base/` as the local evidence layer that the skill reads from.
-5. If you want to install this skill into Codex, Claude Code, or Claude, start with `INSTALL_SKILLS.md`.
+4. Treat `knowledge-base/` as the workspace source of truth and `skill/agiso-open-platform/knowledge-base/` as the installable snapshot.
+5. After updating the workspace evidence base, refresh the installable snapshot with `python3 skill/agiso-open-platform/scripts/sync_bundled_knowledge_base.py`.
+6. If you want to install this skill into Codex, Claude Code, or Claude, start with `INSTALL_SKILLS.md`.
 
 ## Skill And Path Contract
 
@@ -58,9 +60,10 @@ The skill identifier and directory name remain `agiso-open-platform`.
 Skill scripts resolve the knowledge base from one of these sources:
 
 1. `AGISO_KNOWLEDGE_BASE_ROOT`
-2. `<repo>/knowledge-base`
+2. `<installed-skill>/knowledge-base`
+3. `<repo>/knowledge-base`
 
-That removes the previous implicit relative-path coupling and makes the skill portable across clones.
+That makes the skill directory self-contained for Codex, Claude Code, and ZIP upload flows while preserving a workspace override for maintainers.
 
 ## Open Source Scope
 

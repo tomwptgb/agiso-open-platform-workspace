@@ -38,7 +38,7 @@ Only some services also expose `model.md`.
 
 ## Gateway Hints
 
-Derived from `../../../knowledge-base/extracted/crawl_summary.json`:
+Derived from `../knowledge-base/extracted/crawl_summary.json`:
 
 - `alds` gateway: `https://gw-api.agiso.com/alds`
 - `acs` gateway: `https://gw-api.agiso.com/acs`
